@@ -14,7 +14,7 @@ This application contains the following knowledge:
 
 - iOS 14
 
-- Combine basic
+- Basic Combine
 
 - ObservableObject: observedObject, StateObject y EnvironmentObject
 

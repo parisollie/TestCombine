@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9B4D472429EFA4BB00B60B24 /* TestCombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D472329EFA4BB00B60B24 /* TestCombineApp.swift */; };
-		9B4D472629EFA4BB00B60B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4D472529EFA4BB00B60B24 /* ContentView.swift */; };
 		9B4D472829EFA4BD00B60B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4D472729EFA4BD00B60B24 /* Assets.xcassets */; };
 		9B4D472B29EFA4BD00B60B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B4D472A29EFA4BD00B60B24 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,13 +15,13 @@
 /* Begin PBXFileReference section */
 		9B4D472029EFA4BB00B60B24 /* TestCombine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCombine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4D472329EFA4BB00B60B24 /* TestCombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCombineApp.swift; sourceTree = "<group>"; };
-		9B4D472529EFA4BB00B60B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9B4D472729EFA4BD00B60B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B4D472A29EFA4BD00B60B24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8A9A864F2D891C2400D43C5B /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		8AB639112E37DF6500CEA240 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +54,9 @@
 		9B4D472229EFA4BB00B60B24 /* TestCombine */ = {
 			isa = PBXGroup;
 			children = (
+				8AB639112E37DF6500CEA240 /* Views */,
 				8A9A864F2D891C2400D43C5B /* Model */,
 				9B4D472329EFA4BB00B60B24 /* TestCombineApp.swift */,
-				9B4D472529EFA4BB00B60B24 /* ContentView.swift */,
 				9B4D472729EFA4BD00B60B24 /* Assets.xcassets */,
 				9B4D472929EFA4BD00B60B24 /* Preview Content */,
 			);
@@ -89,6 +88,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				8A9A864F2D891C2400D43C5B /* Model */,
+				8AB639112E37DF6500CEA240 /* Views */,
 			);
 			name = TestCombine;
 			productName = TestCombine;
@@ -145,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B4D472629EFA4BB00B60B24 /* ContentView.swift in Sources */,
 				9B4D472429EFA4BB00B60B24 /* TestCombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

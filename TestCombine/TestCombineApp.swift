@@ -9,17 +9,16 @@ import SwiftUI
 
 @main
 struct CombineMainApp: App {
-    //V-96,Paso 1.16
+    //Paso 2.4
     var modelo = Modelo()
     
     var body: some Scene {
         WindowGroup {
-            //paso 1.17, es cambiado para que pueda funcionar
+            //Paso 2.5,lo cambiamos para que pueda funcionar el EnviromentObject sino no funciona.
             /*
-             .environmentObject(modelo), propagamos todas las variables
-             que esten en nuestro modelo atraves de todas las vistas subyacentes
-             al content View así  que las inyectamos en todos lados.
-             
+               .environmentObject(modelo): propagamos todas las variables
+                que esten en nuestro modelo atraves de todas las vistas subyacentes
+                al content View así  que las inyectamos en todos lados.
              */
             ContentView().environmentObject(modelo)
         }

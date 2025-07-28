@@ -12,11 +12,9 @@ This application contains the following knowledge:
   
 - Slider
 
-- iOS 14-15
+- iOS 14
 
-- NavigationLink
-
-- State and Binding knowledge
+- Combine basic
 
 - ObservableObject: observedObject, StateObject y EnvironmentObject
 

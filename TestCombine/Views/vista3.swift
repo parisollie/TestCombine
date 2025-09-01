@@ -10,7 +10,7 @@ import SwiftUI
 //V-96,paso 2.1
 struct vista3: View {
     /*No se reinicia al momento de que cambia la vista , sino que guarda la vista
-     y deja lo que esta alamcenado */
+     y deja lo que esta almacenado */
     @StateObject var contador = Modelo()
     
     var body: some View {

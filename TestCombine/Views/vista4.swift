@@ -14,7 +14,7 @@ struct vista4: View {
     
     var body: some View {
         VStack{
-            Text("Contador vista 4(EnvironmentObject) = \(contador.contador)")
+            Text("Contador vista 4(EnvironmentObject)Aumenta en los que la tengan y no Se reinica = \(contador.contador)")
             Button("Sumar contador"){
                 contador.contador += 1
             }

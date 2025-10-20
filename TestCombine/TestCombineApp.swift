@@ -9,7 +9,8 @@ import SwiftUI
 
 @main
 struct CombineMainApp: App {
-    //Paso 2.4
+    /*Paso 2.4, para activar el envirnment object hacemos una cosa
+    ponemos variable*/
     var modelo = Modelo()
     
     var body: some Scene {
@@ -20,7 +21,8 @@ struct CombineMainApp: App {
                 que esten en nuestro modelo atraves de todas las vistas subyacentes
                 al content View así  que las inyectamos en todos lados.
              */
-            ContentView().environmentObject(modelo)
+            ContentView()
+                .environmentObject(modelo)
         }
     }
 }

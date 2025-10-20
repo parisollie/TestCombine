@@ -15,7 +15,7 @@ struct vista3: View {
     
     var body: some View {
         VStack{
-            Text("Contador vista 3(StateObject) = \(contador.contador)")
+            Text("Contador vista 3(StateObject)No se reinicia = \(contador.contador)")
             Button("Sumar contador"){
                 contador.contador += 1
             }
